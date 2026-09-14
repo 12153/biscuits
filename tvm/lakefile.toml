@@ -1,0 +1,14 @@
+name = "tvm"
+version = "0.1.0"
+defaultTargets = ["tvm"]
+
+[[lean_lib]]
+name = "Tvm"
+
+[[lean_exe]]
+name = "tvm"
+root = "Main"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
