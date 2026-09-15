@@ -28,3 +28,5 @@ theorem si_r_succ (pv i : ℚ) (t : ℕ) :
     si_r pv i (t + 1) = si_r (pv * (1 + i)) i t := by rfl
 
 -- pv * (1 + i) ^ (t + 1) = (pv * ( 1 + i)) * (1 + i) ^ t
+
+

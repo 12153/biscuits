@@ -19,6 +19,8 @@ namespace ConfidenceIntervalProblem
     p.mean / (Float.sqrt p.dev)
 
 
+
 end ConfidenceIntervalProblem
+
 
 
