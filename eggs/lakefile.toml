@@ -1,12 +1,12 @@
-name = "tvm"
+name = "eggs"
 version = "0.1.0"
-defaultTargets = ["tvm"]
+defaultTargets = ["eggs"]
 
 [[lean_lib]]
-name = "Tvm"
+name = "Eggs"
 
 [[lean_exe]]
-name = "tvm"
+name = "eggs"
 root = "Main"
 
 [[require]]
